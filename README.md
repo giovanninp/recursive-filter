@@ -15,6 +15,12 @@ $ yarn add recursive-filter-creator
 
 ## Using
 
+``` javascript
+import {create} from 'recursive-filter-creator';
+// or
+const {create} = require('recursive-filter-creator');
+```
+
 ```javascript
 /* DATA TO BE FILTERED */
 const data = [
